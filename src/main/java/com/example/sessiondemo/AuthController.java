@@ -19,6 +19,7 @@ public class AuthController {
     public String login(@RequestParam String username, @RequestParam String password) {
         // Aquí se puede agregar validación real. Por ahora es fijo.
         if ("admin".equals(username) && "1234".equals(password)) {
+            // Log the user in
             userSession.login(username);
             return "Usuario autenticado exitosamente.";
         }
