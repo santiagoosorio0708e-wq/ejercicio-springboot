@@ -1,4 +1,4 @@
-# Taller: Autenticación básica con manejo de sesión en Spring Boot
+# ??? Taller: Autenticación básica con manejo de sesión en Spring Boot
 
 ## Objetivo
 Este proyecto demuestra cómo implementar un sistema básico de autenticación en Spring Boot utilizando el contexto de sesión de forma nativa (`@SessionScope`), sin depender de herramientas complejas como Spring Security o bases de datos como JPA.
