@@ -1,5 +1,8 @@
 package com.example.sessiondemo;
 
+/**
+ * Model for the session user.
+ */
 public class SessionUser {
     private String username;
     private long loginTime;
