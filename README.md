@@ -60,3 +60,6 @@ curl.exe -X POST http://localhost:8080/api/logout -b cookies.txt
 ```
 *Respuesta esperada:* `Sesión cerrada.`
 *(Si luego de esto vuelves a intentar el paso 3, el sistema ya no te reconocerá).*
+
+---
+*Taller completado exitosamente.*
