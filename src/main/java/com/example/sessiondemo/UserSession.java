@@ -7,6 +7,9 @@ import org.springframework.web.context.annotation.SessionScope;
 
 @Component
 @SessionScope(proxyMode = ScopedProxyMode.TARGET_CLASS)
+/**
+ * Bean representing the user session.
+ */
 public class UserSession {
 
     private SessionUser user;
