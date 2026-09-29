@@ -42,6 +42,7 @@ public class AuthController {
         if (!userSession.isLoggedIn()) {
             return "No hay sesión activa.";
         }
+        // Log the user out
         userSession.logout();
         return "Sesión cerrada.";
     }
