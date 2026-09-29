@@ -4,6 +4,9 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
+/**
+ * Controller for authentication endpoints.
+ */
 public class AuthController {
 
     private final UserSession userSession;
